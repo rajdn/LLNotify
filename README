@@ -1,0 +1,40 @@
+Copyright (c) 2011 Liberati Luca http://www.liberatiluca.com
+
+This component manages a queue of notifications that needs to be displayed to the user.
+Comes with a little iPhone app demo, commented code and a docset ready to be installed in Xcode.
+
+To display a notification:
+
+- 1. Create an instance of the notification model:
+
+  LLNotify *notification = [LLNotify notification];
+ 
+- 2. Change it's properties to suit your needs:
+
+  notification.type = LLNotifyTypeError;
+  notification.targetView = viewFromWhereToDisplayTheNotification;
+  notification.title = @"A notification";
+  notification.message = @"This is a notification message!";
+  notification.icon = [UIImage imageNamed:@"icon_error"];
+  notification.position = LLNotifyPositionTop;
+  notification.showAnimation = LLNotifyAnimationSlideDown;
+  notification.hideAnimation = LLNotifyAnimationSlideUp;
+  notification.hideTimeout = 3;
+  
+- 3. Add the notification to the queue and call showNotifications to display pending notifications in the queue:
+ 
+  [notifyManager addNotificationToQueue:notification];
+  [notifyManager showNotifications];
+
+- 4. Done!
+
+License
+-
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+- The use of the Software in your (or your company) product, must include an attribution for my work in your (or your company) product (for example in the readme files, website and in the product itself).
+
+It's possible to have a non-attribution license, see: http://www.liberatiluca.com/components/licenses
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

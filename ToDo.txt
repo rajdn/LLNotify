@@ -1,0 +1,8 @@
+??? is for "it's that useful???" ideas.
+
+
+- Finish the modal notification, for now it's disabled
+- Fade-in / fade-out animations
+- Add a "info" button to the view. If the user taps it, a modal view that contains additional information for the notification will appear
+- On-demand remote notifications. If the developer enables them, every time the app will be on the foreground, the manager will check for a plist or do an API call to a remote server and displays the not shown notifications. This is very handy for telling the user something important, without using a mailing-list, social networks or setting up APNS server. Every user that has a connection will be able to see the message
+- ??? A modal view that will display a log of received (and/or unread) notifications

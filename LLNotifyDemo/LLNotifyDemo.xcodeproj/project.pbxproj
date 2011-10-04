@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A316051D143A225D00A4EFB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316051C143A225D00A4EFB6 /* UIKit.framework */; };
+		A316051F143A225D00A4EFB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316051E143A225D00A4EFB6 /* Foundation.framework */; };
+		A3160521143A225D00A4EFB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3160520143A225D00A4EFB6 /* CoreGraphics.framework */; };
+		A3160546143A228C00A4EFB6 /* LLNotifyDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A316053E143A228C00A4EFB6 /* LLNotifyDemoViewController.xib */; };
+		A3160547143A228C00A4EFB6 /* LLNotifyDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3160542143A228C00A4EFB6 /* LLNotifyDemoAppDelegate.m */; };
+		A3160548143A228C00A4EFB6 /* LLNotifyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3160544143A228C00A4EFB6 /* LLNotifyDemoViewController.m */; };
+		A3160549143A228C00A4EFB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3160545143A228C00A4EFB6 /* main.m */; };
+		A316054F143A231B00A4EFB6 /* libLLNotify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A316054E143A231B00A4EFB6 /* libLLNotify.a */; };
+		A31F1063143A264500212CF6 /* icon_alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31F105C143A264500212CF6 /* icon_alert@2x.png */; };
+		A31F1064143A264500212CF6 /* icon_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31F105D143A264500212CF6 /* icon_error@2x.png */; };
+		A31F1065143A264500212CF6 /* icon_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31F105E143A264500212CF6 /* icon_info@2x.png */; };
+		A31F1066143A264500212CF6 /* notify_view_bottom_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31F105F143A264500212CF6 /* notify_view_bottom_shadow@2x.png */; };
+		A31F1067143A264500212CF6 /* notify_view_left_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31F1060143A264500212CF6 /* notify_view_left_shadow@2x.png */; };
+		A31F1068143A264500212CF6 /* notify_view_right_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31F1061143A264500212CF6 /* notify_view_right_shadow@2x.png */; };
+		A31F1069143A264500212CF6 /* notify_view_top_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31F1062143A264500212CF6 /* notify_view_top_shadow@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3160518143A225D00A4EFB6 /* LLNotifyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLNotifyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A316051C143A225D00A4EFB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A316051E143A225D00A4EFB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3160520143A225D00A4EFB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A316053F143A228C00A4EFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLNotifyDemoViewController.xib; sourceTree = "<group>"; };
+		A3160541143A228C00A4EFB6 /* LLNotifyDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNotifyDemoAppDelegate.h; sourceTree = "<group>"; };
+		A3160542143A228C00A4EFB6 /* LLNotifyDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNotifyDemoAppDelegate.m; sourceTree = "<group>"; };
+		A3160543143A228C00A4EFB6 /* LLNotifyDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNotifyDemoViewController.h; sourceTree = "<group>"; };
+		A3160544143A228C00A4EFB6 /* LLNotifyDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNotifyDemoViewController.m; sourceTree = "<group>"; };
+		A3160545143A228C00A4EFB6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A316054B143A22C700A4EFB6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A316054D143A22E200A4EFB6 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		A316054E143A231B00A4EFB6 /* libLLNotify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLLNotify.a; path = "../../../../../Library/Developer/Xcode/DerivedData/LLNotify-ckdwizgzywstxrhiixolpnebrbrc/Build/Products/Debug-iphoneos/libLLNotify.a"; sourceTree = "<group>"; };
+		A31F105C143A264500212CF6 /* icon_alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_alert@2x.png"; sourceTree = "<group>"; };
+		A31F105D143A264500212CF6 /* icon_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_error@2x.png"; sourceTree = "<group>"; };
+		A31F105E143A264500212CF6 /* icon_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_info@2x.png"; sourceTree = "<group>"; };
+		A31F105F143A264500212CF6 /* notify_view_bottom_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_view_bottom_shadow@2x.png"; sourceTree = "<group>"; };
+		A31F1060143A264500212CF6 /* notify_view_left_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_view_left_shadow@2x.png"; sourceTree = "<group>"; };
+		A31F1061143A264500212CF6 /* notify_view_right_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_view_right_shadow@2x.png"; sourceTree = "<group>"; };
+		A31F1062143A264500212CF6 /* notify_view_top_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_view_top_shadow@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3160515143A225D00A4EFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A316054F143A231B00A4EFB6 /* libLLNotify.a in Frameworks */,
+				A316051D143A225D00A4EFB6 /* UIKit.framework in Frameworks */,
+				A316051F143A225D00A4EFB6 /* Foundation.framework in Frameworks */,
+				A3160521143A225D00A4EFB6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A316050D143A225D00A4EFB6 = {
+			isa = PBXGroup;
+			children = (
+				A316054E143A231B00A4EFB6 /* libLLNotify.a */,
+				A316053D143A228C00A4EFB6 /* Sources */,
+				A316054A143A22BA00A4EFB6 /* Supporting Files */,
+				A31F105B143A264500212CF6 /* Resources */,
+				A316051B143A225D00A4EFB6 /* Frameworks */,
+				A3160519143A225D00A4EFB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3160519143A225D00A4EFB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3160518143A225D00A4EFB6 /* LLNotifyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A316051B143A225D00A4EFB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A316051C143A225D00A4EFB6 /* UIKit.framework */,
+				A316051E143A225D00A4EFB6 /* Foundation.framework */,
+				A3160520143A225D00A4EFB6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A316053D143A228C00A4EFB6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A316053E143A228C00A4EFB6 /* LLNotifyDemoViewController.xib */,
+				A3160541143A228C00A4EFB6 /* LLNotifyDemoAppDelegate.h */,
+				A3160542143A228C00A4EFB6 /* LLNotifyDemoAppDelegate.m */,
+				A3160543143A228C00A4EFB6 /* LLNotifyDemoViewController.h */,
+				A3160544143A228C00A4EFB6 /* LLNotifyDemoViewController.m */,
+				A3160545143A228C00A4EFB6 /* main.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A316054A143A22BA00A4EFB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A316054D143A22E200A4EFB6 /* Prefix.pch */,
+				A316054B143A22C700A4EFB6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A31F105B143A264500212CF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A31F105C143A264500212CF6 /* icon_alert@2x.png */,
+				A31F105D143A264500212CF6 /* icon_error@2x.png */,
+				A31F105E143A264500212CF6 /* icon_info@2x.png */,
+				A31F105F143A264500212CF6 /* notify_view_bottom_shadow@2x.png */,
+				A31F1060143A264500212CF6 /* notify_view_left_shadow@2x.png */,
+				A31F1061143A264500212CF6 /* notify_view_right_shadow@2x.png */,
+				A31F1062143A264500212CF6 /* notify_view_top_shadow@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3160517143A225D00A4EFB6 /* LLNotifyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3160533143A225D00A4EFB6 /* Build configuration list for PBXNativeTarget "LLNotifyDemo" */;
+			buildPhases = (
+				A3160514143A225D00A4EFB6 /* Sources */,
+				A3160515143A225D00A4EFB6 /* Frameworks */,
+				A3160516143A225D00A4EFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLNotifyDemo;
+			productName = LLNotifyDemo;
+			productReference = A3160518143A225D00A4EFB6 /* LLNotifyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A316050F143A225D00A4EFB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Liberati Luca";
+			};
+			buildConfigurationList = A3160512143A225D00A4EFB6 /* Build configuration list for PBXProject "LLNotifyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A316050D143A225D00A4EFB6;
+			productRefGroup = A3160519143A225D00A4EFB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3160517143A225D00A4EFB6 /* LLNotifyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3160516143A225D00A4EFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3160546143A228C00A4EFB6 /* LLNotifyDemoViewController.xib in Resources */,
+				A31F1063143A264500212CF6 /* icon_alert@2x.png in Resources */,
+				A31F1064143A264500212CF6 /* icon_error@2x.png in Resources */,
+				A31F1065143A264500212CF6 /* icon_info@2x.png in Resources */,
+				A31F1066143A264500212CF6 /* notify_view_bottom_shadow@2x.png in Resources */,
+				A31F1067143A264500212CF6 /* notify_view_left_shadow@2x.png in Resources */,
+				A31F1068143A264500212CF6 /* notify_view_right_shadow@2x.png in Resources */,
+				A31F1069143A264500212CF6 /* notify_view_top_shadow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3160514143A225D00A4EFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3160547143A228C00A4EFB6 /* LLNotifyDemoAppDelegate.m in Sources */,
+				A3160548143A228C00A4EFB6 /* LLNotifyDemoViewController.m in Sources */,
+				A3160549143A228C00A4EFB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A316053E143A228C00A4EFB6 /* LLNotifyDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A316053F143A228C00A4EFB6 /* en */,
+			);
+			name = LLNotifyDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3160531143A225D00A4EFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../Sources/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3160532143A225D00A4EFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../Sources/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3160534143A225D00A4EFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/LLNotify-ckdwizgzywstxrhiixolpnebrbrc/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3160535143A225D00A4EFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/LLNotify-ckdwizgzywstxrhiixolpnebrbrc/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3160512143A225D00A4EFB6 /* Build configuration list for PBXProject "LLNotifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3160531143A225D00A4EFB6 /* Debug */,
+				A3160532143A225D00A4EFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3160533143A225D00A4EFB6 /* Build configuration list for PBXNativeTarget "LLNotifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3160534143A225D00A4EFB6 /* Debug */,
+				A3160535143A225D00A4EFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A316050F143A225D00A4EFB6 /* Project object */;
+}

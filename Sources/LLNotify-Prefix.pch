@@ -1,0 +1,12 @@
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <QuartzCore/QuartzCore.h>
+
+#endif
+
+#define DEFAULT_FONTSIZE    15
+#define DEFAULT_FONT(s)     [UIFont fontWithName:@"HelveticaNeue" size:s]
+#define DEFAULT_BOLDFONT(s) [UIFont fontWithName:@"HelveticaNeue-Bold" size:s]

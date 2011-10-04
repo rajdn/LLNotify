@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A341899E13DA336400A36400 /* LLNotifyView+Update.m in Sources */ = {isa = PBXBuildFile; fileRef = A341899C13DA336400A36400 /* LLNotifyView+Update.m */; };
+		A3E0DC1813D9D09D00BCEEEB /* LLNotifyView+DelegateMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E0DC1613D9D09D00BCEEEB /* LLNotifyView+DelegateMethods.m */; };
+		A3E0DC1C13D9D60B00BCEEEB /* LLNotifyView+AnimationSlideUp.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E0DC1A13D9D60B00BCEEEB /* LLNotifyView+AnimationSlideUp.m */; };
+		A3E0DC2013D9D9AE00BCEEEB /* LLNotifyView+AnimationSlideLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E0DC1E13D9D9AE00BCEEEB /* LLNotifyView+AnimationSlideLeft.m */; };
+		A3E0DC2413D9E3E000BCEEEB /* LLNotifyView+AnimationSlideRight.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E0DC2213D9E3E000BCEEEB /* LLNotifyView+AnimationSlideRight.m */; };
+		A3E0DC5B13D9E89000BCEEEB /* LLNotifyView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E0DC5913D9E89000BCEEEB /* LLNotifyView+Animation.m */; };
+		A3E0DC6313D9F72100BCEEEB /* LLNotifyView+ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E0DC6113D9F72100BCEEEB /* LLNotifyView+ContainerView.m */; };
+		A3FD017213D9C34900497E35 /* LLNotifyView+AnimationSlideDown.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FD017013D9C34900497E35 /* LLNotifyView+AnimationSlideDown.m */; };
+		A3FD8E4E13D8EBDF008548F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FD8E4D13D8EBDF008548F5 /* Foundation.framework */; };
+		A3FD8E6313D8EC1C008548F5 /* LLNotify-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A3FD8E5B13D8EC1C008548F5 /* LLNotify-Prefix.pch */; };
+		A3FD8E6413D8EC1C008548F5 /* LLNotify.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FD8E5C13D8EC1C008548F5 /* LLNotify.h */; };
+		A3FD8E6513D8EC1C008548F5 /* LLNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FD8E5D13D8EC1C008548F5 /* LLNotify.m */; };
+		A3FD8E6613D8EC1C008548F5 /* LLNotifyEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FD8E5E13D8EC1C008548F5 /* LLNotifyEnums.h */; };
+		A3FD8E6713D8EC1C008548F5 /* LLNotifyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FD8E5F13D8EC1C008548F5 /* LLNotifyManager.h */; };
+		A3FD8E6813D8EC1C008548F5 /* LLNotifyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FD8E6013D8EC1C008548F5 /* LLNotifyManager.m */; };
+		A3FD8E6913D8EC1C008548F5 /* LLNotifyView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FD8E6113D8EC1C008548F5 /* LLNotifyView.h */; };
+		A3FD8E6A13D8EC1C008548F5 /* LLNotifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FD8E6213D8EC1C008548F5 /* LLNotifyView.m */; };
+		A3FD8E6C13D8EC40008548F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FD8E6B13D8EC40008548F5 /* QuartzCore.framework */; };
+		A3FD8E6E13D8EC46008548F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FD8E6D13D8EC46008548F5 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A316053A143A225F00A4EFB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3160536143A225D00A4EFB6 /* LLNotifyDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A3160518143A225D00A4EFB6;
+			remoteInfo = LLNotifyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3160536143A225D00A4EFB6 /* LLNotifyDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LLNotifyDemo.xcodeproj; path = LLNotifyDemo/LLNotifyDemo.xcodeproj; sourceTree = "<group>"; };
+		A341899C13DA336400A36400 /* LLNotifyView+Update.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLNotifyView+Update.m"; sourceTree = "<group>"; };
+		A399721C13D952D4000C574F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A39E744B143A1E8C0018B7CF /* ToDo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ToDo.txt; path = LLNotifyDemo/../ToDo.txt; sourceTree = "<group>"; };
+		A3E0DC1613D9D09D00BCEEEB /* LLNotifyView+DelegateMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "LLNotifyView+DelegateMethods.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A3E0DC1A13D9D60B00BCEEEB /* LLNotifyView+AnimationSlideUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLNotifyView+AnimationSlideUp.m"; sourceTree = "<group>"; };
+		A3E0DC1E13D9D9AE00BCEEEB /* LLNotifyView+AnimationSlideLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLNotifyView+AnimationSlideLeft.m"; sourceTree = "<group>"; };
+		A3E0DC2213D9E3E000BCEEEB /* LLNotifyView+AnimationSlideRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLNotifyView+AnimationSlideRight.m"; sourceTree = "<group>"; };
+		A3E0DC5913D9E89000BCEEEB /* LLNotifyView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "LLNotifyView+Animation.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A3E0DC6113D9F72100BCEEEB /* LLNotifyView+ContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLNotifyView+ContainerView.m"; sourceTree = "<group>"; };
+		A3FD017013D9C34900497E35 /* LLNotifyView+AnimationSlideDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLNotifyView+AnimationSlideDown.m"; sourceTree = "<group>"; };
+		A3FD8E4A13D8EBDF008548F5 /* libLLNotify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLLNotify.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FD8E4D13D8EBDF008548F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3FD8E5B13D8EC1C008548F5 /* LLNotify-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLNotify-Prefix.pch"; sourceTree = "<group>"; };
+		A3FD8E5C13D8EC1C008548F5 /* LLNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNotify.h; sourceTree = "<group>"; };
+		A3FD8E5D13D8EC1C008548F5 /* LLNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LLNotify.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A3FD8E5E13D8EC1C008548F5 /* LLNotifyEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LLNotifyEnums.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A3FD8E5F13D8EC1C008548F5 /* LLNotifyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNotifyManager.h; sourceTree = "<group>"; };
+		A3FD8E6013D8EC1C008548F5 /* LLNotifyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNotifyManager.m; sourceTree = "<group>"; };
+		A3FD8E6113D8EC1C008548F5 /* LLNotifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNotifyView.h; sourceTree = "<group>"; };
+		A3FD8E6213D8EC1C008548F5 /* LLNotifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNotifyView.m; sourceTree = "<group>"; };
+		A3FD8E6B13D8EC40008548F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A3FD8E6D13D8EC46008548F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FD8E4713D8EBDF008548F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FD8E6E13D8EC46008548F5 /* UIKit.framework in Frameworks */,
+				A3FD8E6C13D8EC40008548F5 /* QuartzCore.framework in Frameworks */,
+				A3FD8E4E13D8EBDF008548F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3160537143A225D00A4EFB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A316053B143A225F00A4EFB6 /* LLNotifyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FD8E3F13D8EBDF008548F5 = {
+			isa = PBXGroup;
+			children = (
+				A3160536143A225D00A4EFB6 /* LLNotifyDemo.xcodeproj */,
+				A39E744B143A1E8C0018B7CF /* ToDo.txt */,
+				A3FD8E5A13D8EC1C008548F5 /* Sources */,
+				A3FD8E4C13D8EBDF008548F5 /* Frameworks */,
+				A3FD8E4B13D8EBDF008548F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FD8E4B13D8EBDF008548F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD8E4A13D8EBDF008548F5 /* libLLNotify.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FD8E4C13D8EBDF008548F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD8E6D13D8EC46008548F5 /* UIKit.framework */,
+				A3FD8E6B13D8EC40008548F5 /* QuartzCore.framework */,
+				A3FD8E4D13D8EBDF008548F5 /* Foundation.framework */,
+				A399721C13D952D4000C574F /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3FD8E5A13D8EC1C008548F5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD8E5B13D8EC1C008548F5 /* LLNotify-Prefix.pch */,
+				A3FD8E5E13D8EC1C008548F5 /* LLNotifyEnums.h */,
+				A3FD8E5F13D8EC1C008548F5 /* LLNotifyManager.h */,
+				A3FD8E6013D8EC1C008548F5 /* LLNotifyManager.m */,
+				A3FD8E5C13D8EC1C008548F5 /* LLNotify.h */,
+				A3FD8E5D13D8EC1C008548F5 /* LLNotify.m */,
+				A3FD8E6113D8EC1C008548F5 /* LLNotifyView.h */,
+				A3FD8E6213D8EC1C008548F5 /* LLNotifyView.m */,
+				A3E0DC5913D9E89000BCEEEB /* LLNotifyView+Animation.m */,
+				A3FD017013D9C34900497E35 /* LLNotifyView+AnimationSlideDown.m */,
+				A3E0DC1A13D9D60B00BCEEEB /* LLNotifyView+AnimationSlideUp.m */,
+				A3E0DC1E13D9D9AE00BCEEEB /* LLNotifyView+AnimationSlideLeft.m */,
+				A3E0DC2213D9E3E000BCEEEB /* LLNotifyView+AnimationSlideRight.m */,
+				A3E0DC6113D9F72100BCEEEB /* LLNotifyView+ContainerView.m */,
+				A3E0DC1613D9D09D00BCEEEB /* LLNotifyView+DelegateMethods.m */,
+				A341899C13DA336400A36400 /* LLNotifyView+Update.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3FD8E4813D8EBDF008548F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FD8E6313D8EC1C008548F5 /* LLNotify-Prefix.pch in Headers */,
+				A3FD8E6413D8EC1C008548F5 /* LLNotify.h in Headers */,
+				A3FD8E6613D8EC1C008548F5 /* LLNotifyEnums.h in Headers */,
+				A3FD8E6713D8EC1C008548F5 /* LLNotifyManager.h in Headers */,
+				A3FD8E6913D8EC1C008548F5 /* LLNotifyView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3FD8E4913D8EBDF008548F5 /* LLNotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FD8E5713D8EBDF008548F5 /* Build configuration list for PBXNativeTarget "LLNotify" */;
+			buildPhases = (
+				A3FD8E4613D8EBDF008548F5 /* Sources */,
+				A3FD8E4713D8EBDF008548F5 /* Frameworks */,
+				A3FD8E4813D8EBDF008548F5 /* Headers */,
+				A3424EF01436F7C9008BDB87 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLNotify;
+			productName = LLNotify;
+			productReference = A3FD8E4A13D8EBDF008548F5 /* libLLNotify.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FD8E4113D8EBDF008548F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Liberati Luca";
+			};
+			buildConfigurationList = A3FD8E4413D8EBDF008548F5 /* Build configuration list for PBXProject "LLNotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3FD8E3F13D8EBDF008548F5;
+			productRefGroup = A3FD8E4B13D8EBDF008548F5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A3160537143A225D00A4EFB6 /* Products */;
+					ProjectRef = A3160536143A225D00A4EFB6 /* LLNotifyDemo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A3FD8E4913D8EBDF008548F5 /* LLNotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A316053B143A225F00A4EFB6 /* LLNotifyDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LLNotifyDemo.app;
+			remoteRef = A316053A143A225F00A4EFB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3424EF01436F7C9008BDB87 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p Docs/html/\nrm -rf Docs/html/*\nappledoc --project-name $PROJECT_NAME --output Docs/ .\ncp -a ~/Library/Developer/Shared/Documentation/DocSets/com.libluc.$PROJECT_NAME.docset Docs\ncp -a Docs/com.libluc.$PROJECT_NAME.docset/Contents/Resources/Documents/ Docs/html\nrm Docs/docset-installed.txt";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FD8E4613D8EBDF008548F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FD8E6513D8EC1C008548F5 /* LLNotify.m in Sources */,
+				A3FD8E6813D8EC1C008548F5 /* LLNotifyManager.m in Sources */,
+				A3FD8E6A13D8EC1C008548F5 /* LLNotifyView.m in Sources */,
+				A3FD017213D9C34900497E35 /* LLNotifyView+AnimationSlideDown.m in Sources */,
+				A3E0DC1813D9D09D00BCEEEB /* LLNotifyView+DelegateMethods.m in Sources */,
+				A3E0DC1C13D9D60B00BCEEEB /* LLNotifyView+AnimationSlideUp.m in Sources */,
+				A3E0DC2013D9D9AE00BCEEEB /* LLNotifyView+AnimationSlideLeft.m in Sources */,
+				A3E0DC2413D9E3E000BCEEEB /* LLNotifyView+AnimationSlideRight.m in Sources */,
+				A3E0DC5B13D9E89000BCEEEB /* LLNotifyView+Animation.m in Sources */,
+				A3E0DC6313D9F72100BCEEEB /* LLNotifyView+ContainerView.m in Sources */,
+				A341899E13DA336400A36400 /* LLNotifyView+Update.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3D32110140A32D60048BEC1 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		A3D32111140A32D60048BEC1 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LLNotify.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/LLNotify-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Ad Hoc";
+		};
+		A3FD8E5513D8EBDF008548F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3FD8E5613D8EBDF008548F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FD8E5813D8EBDF008548F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LLNotify.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/LLNotify-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3FD8E5913D8EBDF008548F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LLNotify.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/LLNotify-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FD8E4413D8EBDF008548F5 /* Build configuration list for PBXProject "LLNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FD8E5513D8EBDF008548F5 /* Debug */,
+				A3FD8E5613D8EBDF008548F5 /* Release */,
+				A3D32110140A32D60048BEC1 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FD8E5713D8EBDF008548F5 /* Build configuration list for PBXNativeTarget "LLNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FD8E5813D8EBDF008548F5 /* Debug */,
+				A3FD8E5913D8EBDF008548F5 /* Release */,
+				A3D32111140A32D60048BEC1 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FD8E4113D8EBDF008548F5 /* Project object */;
+}
